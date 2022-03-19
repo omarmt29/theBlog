@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ace78df11a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+
+
+
+
+
+
+<body>
+    <script src="script.js"></script>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark position-fixed w-100" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BLOG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Redes sociales
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://github.com/omarmt29"
+                                    target="blank_page">Github</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/omarmt29/"
+                                    target="blank_page">Instagram</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item bg-danger text-light"
+                                    href="https://www.youtube.com/channel/UCSw_x7GtTNNWLuSWFzrBuEA" id="youtube"
+                                    target="blank_page">Canal de youtube</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="perfil.html">Perfil</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://www.azulweb.net/wp-content/uploads/2018/12/Bootstrap-4-curso-gratuito.jpeg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BOOTSTRAP </h5>
+                        <p>Libreria de css para el diseño optimo y facil que se utilizo</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://programacion.net/files/article/20161223111243_html5.jpg" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>HTML</h5>
+                        <p>Lenguaje de etiqueta el cual se uso para este blog.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wwwhatsnew.com/wp-content/uploads/2021/01/aprender-css.jpg" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>CSS</h5>
+                        <p>se utilizo css para dar algunos retoques personales que no podia con bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="section1">
+            <div class="titulo">
+
+                <h3 class="titulo_h1 ">Videos recomendados</h3>
+                <i class="fa-solid fa-camera-movie"></i>
+            </div>
+
+            <div class="videos">
+
+                <div class="card bg-dark" style="width: 18rem;" id="card">
+                    <img src="https://i.ytimg.com/an_webp/72HvQnuEn84/mqdefault_6s.webp?du=3000&sqp=CNi51JEG&rs=AOn4CLBaigjO3asEyzfxoVhZJ3-36o1v2A"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Reproductor de musica</h5>
+                        <p class="card-text text-muted">Prototipo rapido y comodo, en el cual se puede escuchar musica
+                            basado en spotify </p>
+                        <a href="https://www.youtube.com/watch?v=72HvQnuEn84&t=2s" target="blank_page"
+                            class="btn btn-primary">Reproducir</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 18rem;" id="card">
+                    <img src="https://i.ytimg.com/an_webp/ogVOoBnh9Rs/mqdefault_6s.webp?du=3000&sqp=CO2p1JEG&rs=AOn4CLDxfJdTatYXR5XGtXtZJrpfWYvakg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Tienda online</h5>
+                        <p class="card-text text-muted">Prototipo de tienda online, donde puedes comprar productos y ver
+                            su descripcion basada en amazon</p>
+                        <a href="https://www.youtube.com/watch?v=ogVOoBnh9Rs&t=175s" target="blank_page"
+                            class="btn btn-primary">Reproducir</a>
+                    </div>
+                </div>
+                <div class="card bg-dark" style="width: 18rem;" id="card">
+                    <img src="https://i.ytimg.com/an_webp/AgoLu2tfUNg/mqdefault_6s.webp?du=3000&sqp=CKCh1JEG&rs=AOn4CLCa8MA9sI2fOGtfB1laxTS98rZdUg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Login</h5>
+                        <p class="card-text text-muted">Prototipo de un para una aplicacion en donde se puede loguear
+                            con otras redes sociales</p>
+                        <a href="https://www.azulweb.net/wp-content/uploads/2018/12/Bootstrap-4-curso-gratuito.jpeg"
+                            target="blank_page" class="btn btn-primary">Reproducir</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="section2" target="blank_page">
+            <h3 class="titulo_h1 ">Contáctame</h3>
+            <form action="https://formsubmit.co/1113edd5d0b5e243b48f9de9bb5fc3d7" method="POST" name="EmailForm"
+                target="blank_page" id="form">
+
+                <!-- desactivar captcha -->
+                <input type="hidden" name="_captcha" value="false" >
+
+                <input type="text" size="19" name="Contact-Name" placeholder="Nombre" id="nombre"><br><br>
+
+                <input type="email" name="Contact-Email" placeholder="Email" id="email"><br><br>
+
+               
+                <textarea placeholder="Mensaje" value="" id="textarea" onclick="clearContent()">
+                </textarea> <br>
+
+                <div class="botones">
+                    <button class="btn-success w-25 p-2 m-1" type="submit" value="Submit" target="blank_page">Enviar</button>
+                    <button class="btn-danger w-25 p-2 m-1" type="button" value="none" onclick="clearText()" id="borrar">Borrar</button>
+                </div>
+               
+            </form>
+            
+        </div>
+
+
+        <footer>
+            <div class="footer">
+                <div class="footer-copyright text-center py-3" id="footer">
+                  <p>© 2022 Copyright - Omar Méndez</p>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+</html>
